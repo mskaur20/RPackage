@@ -1,0 +1,17 @@
+Package: MyFirstPackage
+Package: DataToolsR
+Title: Basic Data Manipulation Tools
+Version: 0.1.0
+Authors@R: 
+    person(given = "Sarab", 
+           family = "Kaur", 
+           role = c("aut", "cre"),
+           email = "sarab@example.com")
+Description: This package provides basic tools for calculating the mean, median, and mode of numeric vectors. It's designed for users who need quick summary statistics in R.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Imports: 
+    stats
+
